@@ -52,6 +52,7 @@ Ensure that you have Kafka and CMAK installed in the specified directories.
 3. Start CMAK using the following command:
 
     ```bash
+    cd ~/kafka/cmak-3.0.0.7
     sudo bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
     ```
 
